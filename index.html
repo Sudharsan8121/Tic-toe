@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pro Tic Tac Toe Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+
+  <div id="board" role="grid" aria-label="Tic Tac Toe board">
+    <div class="cell" role="gridcell" aria-label="Cell 1" data-index="0" tabindex="0"></div>
+    <div class="cell" role="gridcell" aria-label="Cell 2" data-index="1" tabindex="0"></div>
+    <div class="cell" role="gridcell" aria-label="Cell 3" data-index="2" tabindex="0"></div>
+    <div class="cell" role="gridcell" aria-label="Cell 4" data-index="3" tabindex="0"></div>
+    <div class="cell" role="gridcell" aria-label="Cell 5" data-index="4" tabindex="0"></div>
+    <div class="cell" role="gridcell" aria-label="Cell 6" data-index="5" tabindex="0"></div>
+    <div class="cell" role="gridcell" aria-label="Cell 7" data-index="6" tabindex="0"></div>
+    <div class="cell" role="gridcell" aria-label="Cell 8" data-index="7" tabindex="0"></div>
+    <div class="cell" role="gridcell" aria-label="Cell 9" data-index="8" tabindex="0"></div>
+  </div>
+
+  <div id="status" aria-live="polite">Player X's turn</div>
+  <button id="resetBtn" aria-label="Restart game">Restart Game</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
